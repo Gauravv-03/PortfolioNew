@@ -413,19 +413,19 @@
 }
 
 #project1{
-  background-image: url(/images/projects/Project1.png);
+  background-image: url(images/projects/Project1.png);
 }
 
 #project2{
   margin-left:120px;
-  background-image: url(/images/projects/Project4.png)
+  background-image: url(images/projects/Project4.png)
 }
 #project3{
-  background-image: url(/images/projects/Project3.png);
+  background-image: url(images/projects/Project3.png);
 }
 #project4{
   margin-left:120px;
-  background-image: url(/images/projects/Project2.png)
+  background-image: url(images/projects/Project2.png)
 }
 
 .skills-logo{
@@ -718,32 +718,15 @@ footer{
   .project-card:hover .project-content {
     scale: 0.55;
   }
-}   */
-
-/* gdgdsgsdgdsgds */
+}   
 
 
 
-
-/* 1. Ensure images never overflow their containers */
-
-/* Prevent any image overflow */
-
-
-
-/* Prevent any image overflow */
-
-/* 0. Prevent any image overflow */
-
-
-
-/* 0. Prevent any image overflow */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* 1. Large tablets / small desktops (≤1024px) */
 @media (max-width: 1024px) {
   .container {
     width: 95%;
@@ -770,30 +753,26 @@ img {
     gap: 4rem;
   }
 
-  /* hide the giant background name on smaller screens */
   .faded-text {
     display: none;
   }
 
-  /* shrink the Projects title */
   .page-header {
     font-size: 4rem;
   }
 
-  /* hide the skills watermark */
   .skill-fade-text {
     display: none;
   }
 }
 
-/* 2. Tablets / large phones (≤768px) */
+
 @media (max-width: 768px) {
   .container {
     width: 90%;
     padding: 0 1rem;
   }
 
-  /* Navbar stacks vertically */
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -804,7 +783,7 @@ img {
     gap: 1rem;
   }
 
-  /* Hero stacks */
+  
   .hero-section {
     flex-direction: column;
     text-align: center;
@@ -823,7 +802,6 @@ img {
     font-size: 1.1rem;
   }
 
-  /* Projects stack vertically */
   .project-container {
     display: flex;
     flex-direction: column;
@@ -839,19 +817,18 @@ img {
     transform: none;
     padding: 1.5rem;
   }
-  /* catch both class name variants */
+
   .project-sub-heading,
   .project-subHeading {
     width: 100%;
     font-size: 1rem;
   }
 
-  /* hide the skills watermark */
   .skill-fade-text {
     display: none;
   }
 
-  /* Skills section flows in column */
+  
   .skill-container {
     flex-direction: column;
     padding: 2rem 1rem;
@@ -862,7 +839,6 @@ img {
     width: 100%;
   }
 
-  /* Contact form */
   .form {
     width: 100%;
     margin: 2rem auto;
@@ -877,7 +853,7 @@ img {
   }
 }
 
-/* 3. Small phones (≤480px) */
+
 @media (max-width: 480px) {
   .user-info-name {
     font-size: 1.5rem;
@@ -893,24 +869,22 @@ img {
     font-size: 1rem;
   }
 
-  /* further shrink Projects title on tiny screens */
+
   .page-header {
     font-size: 3rem;
   }
 
-  /* shrink project card height */
   .project-card {
     height: 200px;
     background-size: contain !important;
     background-position: center !important;
   }
 
-  /* hide skill watermark */
   .skill-fade-text {
     display: none;
   }
 
-  /* make footer responsive */
+ 
   .footer-wrapper {
     flex-direction: column;
     gap: 1.5rem;
