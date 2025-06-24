@@ -418,7 +418,11 @@
 
 #project2{
   margin-left:120px;
+<<<<<<< HEAD
   background-image: url(images/projects/Project4.png)
+=======
+  background-image: url/(images/projects/Project4.png)
+>>>>>>> f3767f4a07c09c9979c536c8791e447ccc69f0ec
 }
 #project3{
   background-image: url(images/projects/Project3.png);
@@ -718,22 +722,22 @@ footer{
   .project-card:hover .project-content {
     scale: 0.55;
   }
-}   */
-
-/* gdgdsgsdgdsgds */
+}   
 
 
 
+<<<<<<< HEAD
 /*  */
 /* Consolidated Responsive Media Queries */
 
 /* 0. Ensure images never overflow */
+=======
+>>>>>>> f3767f4a07c09c9979c536c8791e447ccc69f0ec
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* 1. Large tablets / small desktops (≤1024px) */
 @media (max-width: 1024px) {
   .container {
     width: 95%;
@@ -759,8 +763,20 @@ img {
   .project-container {
     gap: 4rem;
   }
+<<<<<<< HEAD
   /* Hide oversized background text */
   .faded-text,
+=======
+
+  .faded-text {
+    display: none;
+  }
+
+  .page-header {
+    font-size: 4rem;
+  }
+
+>>>>>>> f3767f4a07c09c9979c536c8791e447ccc69f0ec
   .skill-fade-text {
     display: none;
   }
@@ -769,13 +785,17 @@ img {
   }
 }
 
-/* 2. Tablets / large phones (≤768px) */
+
 @media (max-width: 768px) {
   /* Layout adjustments */
   .container {
     width: 90%;
     padding: 0 1rem;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f3767f4a07c09c9979c536c8791e447ccc69f0ec
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -785,6 +805,11 @@ img {
     flex-direction: column;
     gap: 1rem;
   }
+<<<<<<< HEAD
+=======
+
+  
+>>>>>>> f3767f4a07c09c9979c536c8791e447ccc69f0ec
   .hero-section {
     flex-direction: column;
     text-align: center;
@@ -802,6 +827,10 @@ img {
     width: 100%;
     font-size: 1.1rem;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f3767f4a07c09c9979c536c8791e447ccc69f0ec
   .project-container {
     display: flex;
     flex-direction: column;
@@ -824,6 +853,7 @@ img {
     width: 100% !important;
     padding: 1rem !important;
   }
+<<<<<<< HEAD
   .project-heading {
     font-size: 1.5rem !important;
     line-height: 2rem !important;
@@ -847,6 +877,20 @@ img {
     margin-top: 1rem !important;
   }
   /* Skills & Contact */
+=======
+
+  .project-sub-heading,
+  .project-subHeading {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .skill-fade-text {
+    display: none;
+  }
+
+  
+>>>>>>> f3767f4a07c09c9979c536c8791e447ccc69f0ec
   .skill-container {
     flex-direction: column;
     padding: 2rem 1rem;
@@ -856,6 +900,10 @@ img {
   .skill-container-right {
     width: 100%;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f3767f4a07c09c9979c536c8791e447ccc69f0ec
   .form {
     width: 100%;
     margin: 2rem auto;
@@ -894,7 +942,7 @@ img {
   }
 }
 
-/* 3. Small phones (≤480px) */
+
 @media (max-width: 480px) {
   .user-info-name {
     font-size: 1.5rem;
@@ -909,12 +957,22 @@ img {
   .nav-items div {
     font-size: 1rem;
   }
+<<<<<<< HEAD
   .page-header {
     font-size: 3rem;
   }
+=======
+
+
+  .page-header {
+    font-size: 3rem;
+  }
+
+>>>>>>> f3767f4a07c09c9979c536c8791e447ccc69f0ec
   .project-card {
     height: 200px;
   }
+<<<<<<< HEAD
   .project-heading {
     font-size: 1.3rem !important;
     line-height: 1.6rem !important;
@@ -935,6 +993,14 @@ img {
   footer {
     padding: 2rem 0.5rem !important;
   }
+=======
+
+  .skill-fade-text {
+    display: none;
+  }
+
+ 
+>>>>>>> f3767f4a07c09c9979c536c8791e447ccc69f0ec
   .footer-wrapper {
     gap: 1rem !important;
   }
@@ -948,6 +1014,7 @@ img {
   }
 }
 
+<<<<<<< HEAD
 /* 4. Ultra-small phones (≤360px) */
 @media (max-width: 360px) {
   .user-info-name {
@@ -993,3 +1060,14 @@ img {
     font-size: 0.85rem !important;
   }
 }
+=======
+
+
+
+  
+
+
+
+
+  
+>>>>>>> f3767f4a07c09c9979c536c8791e447ccc69f0ec
